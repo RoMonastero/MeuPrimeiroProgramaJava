@@ -6,15 +6,15 @@ import java.util.Scanner;
 public class principal {
 	public static void main(String[] args) {
 		
-		//SaldaÁao e pergunta nome
-		System.out.println("Ol· amigo!\nQual È o seu nome?");
+		//Salda√ßao e pergunta nome
+		System.out.println("Ol√° amigo!\nQual √© o seu nome?");
 		
 		// Ler o nome
 		Scanner in = new Scanner(System.in);
 		String nome = in.nextLine();
 		
-		//SaldaÁ„o especifica
-		System.out.printf("Ol· %s!\n", nome);
+		//Salda√ß√£o especifica para o nome lido
+		System.out.printf("Ol√° %s!\n", nome);
 		in.close();
 
 	}
